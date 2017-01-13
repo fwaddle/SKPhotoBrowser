@@ -6,7 +6,7 @@
 //  Copyright © 2016年 suzuki_keishi. All rights reserved.
 //
 
-import Foundation
+import UIKit
 
 class SKPagingScrollView: UIScrollView {
     let pageIndexTagOffset: Int = 1000

@@ -11,7 +11,7 @@ import UIKit
 public struct SKPhotoBrowserOptions {
     public static var displayStatusbar: Bool = false
     
-    public static var displayAction: Bool = true
+    public static var displayAction: Bool = false
     public static var shareExtraCaption: String? = nil
     public static var actionButtonTitles: [String]?
     
@@ -21,7 +21,7 @@ public struct SKPhotoBrowserOptions {
     public static var disableVerticalSwipe: Bool = false
     
     public static var displayCloseButton: Bool = true
-    public static var displayDeleteButton: Bool = false
+    public static var displayDeleteButton: Bool = true
     
     public static var displayHorizontalScrollIndicator: Bool = true
     public static var displayVerticalScrollIndicator: Bool = true
